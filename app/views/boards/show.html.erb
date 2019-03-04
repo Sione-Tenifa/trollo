@@ -1,0 +1,4 @@
+<h1><%= @board.name %></h1>
+
+<%= link_to "Edit", edit_board_path(@board), class: "ui orange button" %>
+<%= link_to "Delete", @board, method: :delete, class: "ui red button" %>

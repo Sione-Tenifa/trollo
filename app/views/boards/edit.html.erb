@@ -1,0 +1,7 @@
+<h1>Edit Board</h1>
+<%= form_for @board do |f| %>
+  <%= f.label "Board Name" %>
+  <%= f.text_field :name %>
+
+  <%= f.submit %>
+<% end %>

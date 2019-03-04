@@ -1,0 +1,7 @@
+<h1>List</h1>
+
+<% @lists.each do |list| %>
+  <div>
+    <h3><%= link_to list.name, list %></h3>
+  </div>
+<% end %>
